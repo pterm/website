@@ -6,29 +6,35 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="robots" content="INDEX,FOLLOW" />
-    <meta http-equiv="content-Language" content="en" />
-    <meta name="description" content="PTerm is a TUI framework written in Go that supports interactive printers, such as select menus and confirm prompts, as well as live printers, such as progress bars and spinners." />
-    <meta name="keywords" content="pterm, go, golang, tui, framework, terminal, cli, module" />
-    <meta name="author" content="MarvinJWendt" />
-    <meta name="copyright" content="Marvin Wendt" />
+    <meta name="robots" content="INDEX,FOLLOW"/>
+    <meta http-equiv="content-Language" content="en"/>
+    <meta name="description"
+          content="PTerm is a TUI framework written in Go that supports interactive printers, such as select menus and confirm prompts, as well as live printers, such as progress bars and spinners."/>
+    <meta name="keywords" content="pterm, go, golang, tui, framework, terminal, cli, module"/>
+    <meta name="author" content="MarvinJWendt"/>
+    <meta name="copyright" content="Marvin Wendt"/>
 
     <title>PTerm | A Modern TUI Framework Written In Go </title>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.2/src/index.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.3/dist/full.css" rel="stylesheet" type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    
+
     <script defer data-domain="pterm.sh" src="https://a.marvinjwendt.dev/js/script.js"></script>
-    
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QZCNCZ353"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-7QZCNCZ353');
@@ -47,18 +53,27 @@
 <body>
 
 <!--Content-->
-<div class="w-screen flex justify-center h-screen">
-    <div class="max-w-xl m-auto">
+<div class="flex justify-center h-screen">
+    <div class="sm:max-w-xl max-w-xs m-auto">
         <h1 class="text-7xl font-bold text-center">PTerm</h1>
         <p class="text-2xl text-center">A powerful TUI framework written in Go</p>
-        <img class="mt-8"
+        <div class="flex justify-center mt-4">
+            <a class="github-button" href="https://github.com/pterm/pterm"
+               data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star"
+               data-size="large" data-show-count="true" aria-label="Star pterm/pterm on GitHub">Star</a>
+        </div>
+        <img class="mt-4"
              src="https://raw.githubusercontent.com/pterm/pterm/master/_examples/demo/demo/animation.svg"/>
-        <div class="mockup-code mt-8">
+        <div class="mockup-code mt-4">
             <pre data-prefix="$"><code>go get github.com/pterm/pterm</code></pre>
         </div>
-        <div class="flex justify-center w-full mt-8">
-            <a href="https://github.com/pterm/pterm"><button class="btn btn-primary mx-2">GitHub</button></a>
-            <a href="https://docs.pterm.sh"><button class="btn btn-primary mx-2">Documentation</button></a>
+        <div class="flex justify-center w-full mt-4">
+            <a href="https://github.com/pterm/pterm">
+                <button class="btn btn-primary mx-2">GitHub</button>
+            </a>
+            <a href="https://docs.pterm.sh">
+                <button class="btn btn-primary mx-2">Documentation</button>
+            </a>
         </div>
     </div>
 </div>
